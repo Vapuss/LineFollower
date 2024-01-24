@@ -49,7 +49,7 @@ To be honest it is kinda hectic in there with all the wires but we didn't find t
 
 ### 5. Code 
 
-We used the Arduino IDE to program the little robot. We implemented a PID closed-loop control system alongside a Low Pass Filter to get the best results. More info in the [.ino file](https://github.com/GeorgePopescu318/LineFollower/tree/main/follower/follower.ino). 
+We used the Arduino IDE to program the little robot. We implemented a PID closed-loop control system alongside a Low Pass Filter to get the best results. More info in the [.ino file](https://github.com/Vapuss/LineFollower/tree/main/follower/follower.ino). 
 
 Meanwhile, PID stands for Proportional, Integrative, and Derivative, each of these functions helps the car get better on the track and react better to change. In the end, we only used P, for reducing the error signal, which is the part of the system that gives it the main drive, and D, for ensuring that when changes in error occur, the system will behave accordingly and not just go out of the track because of inertia. Easier said, the P wants the car to go as fast as it can and D slows the car down so that it remains on the track.
 
